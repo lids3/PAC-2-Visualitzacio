@@ -1,0 +1,631 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0415.1144                               -->
+<workbook original-version='18.1' source-build='2022.1.1 (20221.22.0415.1144)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='test heart' inline='true' name='federated.059b56r0szzl2y10nrtr81fa88oy' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='test heart' name='textscan.1mi7e2f01xjh2b1ckf54s1foyfku'>
+            <connection class='textscan' directory='C:/Users/lidia/Downloads' filename='test heart.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1mi7e2f01xjh2b1ckf54s1foyfku' name='test heart.csv' table='[test heart#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ca_ES'>
+            <column datatype='string' name='HeartDisease' ordinal='0' />
+            <column datatype='string' name='BMI' ordinal='1' />
+            <column datatype='string' name='Smoking' ordinal='2' />
+            <column datatype='string' name='AlcoholDrinking' ordinal='3' />
+            <column datatype='string' name='Stroke' ordinal='4' />
+            <column datatype='string' name='PhysicalHealth' ordinal='5' />
+            <column datatype='string' name='MentalHealth' ordinal='6' />
+            <column datatype='string' name='DiffWalking' ordinal='7' />
+            <column datatype='string' name='Sex' ordinal='8' />
+            <column datatype='string' name='AgeCategory' ordinal='9' />
+            <column datatype='string' name='Race' ordinal='10' />
+            <column datatype='string' name='Diabetic' ordinal='11' />
+            <column datatype='string' name='PhysicalActivity' ordinal='12' />
+            <column datatype='string' name='GenHealth' ordinal='13' />
+            <column datatype='string' name='SleepTime' ordinal='14' />
+            <column datatype='string' name='Asthma' ordinal='15' />
+            <column datatype='string' name='KidneyDisease' ordinal='16' />
+            <column datatype='string' name='SkinCancer' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1mi7e2f01xjh2b1ckf54s1foyfku' name='test heart.csv' table='[test heart#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ca_ES'>
+            <column datatype='string' name='HeartDisease' ordinal='0' />
+            <column datatype='string' name='BMI' ordinal='1' />
+            <column datatype='string' name='Smoking' ordinal='2' />
+            <column datatype='string' name='AlcoholDrinking' ordinal='3' />
+            <column datatype='string' name='Stroke' ordinal='4' />
+            <column datatype='string' name='PhysicalHealth' ordinal='5' />
+            <column datatype='string' name='MentalHealth' ordinal='6' />
+            <column datatype='string' name='DiffWalking' ordinal='7' />
+            <column datatype='string' name='Sex' ordinal='8' />
+            <column datatype='string' name='AgeCategory' ordinal='9' />
+            <column datatype='string' name='Race' ordinal='10' />
+            <column datatype='string' name='Diabetic' ordinal='11' />
+            <column datatype='string' name='PhysicalActivity' ordinal='12' />
+            <column datatype='string' name='GenHealth' ordinal='13' />
+            <column datatype='string' name='SleepTime' ordinal='14' />
+            <column datatype='string' name='Asthma' ordinal='15' />
+            <column datatype='string' name='KidneyDisease' ordinal='16' />
+            <column datatype='string' name='SkinCancer' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;binary&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ca_ES&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HeartDisease</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HeartDisease]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>HeartDisease</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BMI</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BMI]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>BMI</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smoking</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Smoking]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>Smoking</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AlcoholDrinking</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AlcoholDrinking]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>AlcoholDrinking</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stroke</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Stroke]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>Stroke</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PhysicalHealth</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PhysicalHealth]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>PhysicalHealth</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MentalHealth</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MentalHealth]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>MentalHealth</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DiffWalking</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DiffWalking]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>DiffWalking</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sex]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>Sex</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AgeCategory</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AgeCategory]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>AgeCategory</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Race]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>Race</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diabetic</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Diabetic]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>Diabetic</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PhysicalActivity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PhysicalActivity]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>PhysicalActivity</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GenHealth</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GenHealth]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>GenHealth</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SleepTime</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SleepTime]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>SleepTime</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Asthma</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Asthma]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>Asthma</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KidneyDisease</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[KidneyDisease]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>KidneyDisease</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SkinCancer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SkinCancer]</local-name>
+            <parent-name>[test heart.csv]</parent-name>
+            <remote-alias>SkinCancer</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Race]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='test heart.csv' datatype='table' name='[__tableau_internal_object_id__].[test heart.csv_D195330E32EF48CDB858AA20D10EB33B]' role='measure' type='quantitative' />
+      <column-instance column='[Race]' derivation='None' name='[none:Race:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Race:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;American Indian/Alaskan Native&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;White&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Black&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Asian&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Spain&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='test heart.csv' id='test heart.csv_D195330E32EF48CDB858AA20D10EB33B'>
+            <properties context=''>
+              <relation connection='textscan.1mi7e2f01xjh2b1ckf54s1foyfku' name='test heart.csv' table='[test heart#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ca_ES'>
+                  <column datatype='string' name='HeartDisease' ordinal='0' />
+                  <column datatype='string' name='BMI' ordinal='1' />
+                  <column datatype='string' name='Smoking' ordinal='2' />
+                  <column datatype='string' name='AlcoholDrinking' ordinal='3' />
+                  <column datatype='string' name='Stroke' ordinal='4' />
+                  <column datatype='string' name='PhysicalHealth' ordinal='5' />
+                  <column datatype='string' name='MentalHealth' ordinal='6' />
+                  <column datatype='string' name='DiffWalking' ordinal='7' />
+                  <column datatype='string' name='Sex' ordinal='8' />
+                  <column datatype='string' name='AgeCategory' ordinal='9' />
+                  <column datatype='string' name='Race' ordinal='10' />
+                  <column datatype='string' name='Diabetic' ordinal='11' />
+                  <column datatype='string' name='PhysicalActivity' ordinal='12' />
+                  <column datatype='string' name='GenHealth' ordinal='13' />
+                  <column datatype='string' name='SleepTime' ordinal='14' />
+                  <column datatype='string' name='Asthma' ordinal='15' />
+                  <column datatype='string' name='KidneyDisease' ordinal='16' />
+                  <column datatype='string' name='SkinCancer' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='test heart' name='federated.059b56r0szzl2y10nrtr81fa88oy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.059b56r0szzl2y10nrtr81fa88oy'>
+            <column datatype='string' name='[AgeCategory]' role='dimension' type='nominal' />
+            <column datatype='string' name='[BMI]' role='dimension' type='nominal' />
+            <column caption='INDEX()' datatype='integer' name='[Calculation_68679921914769416]' role='measure' type='quantitative' user:unnamed='Sheet 2'>
+              <calculation class='tableau' formula='INDEX()'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='string' name='[HeartDisease]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Race]' role='dimension' type='nominal' />
+            <column-instance column='[AgeCategory]' derivation='None' name='[none:AgeCategory:nk]' pivot='key' type='nominal' />
+            <column-instance column='[BMI]' derivation='None' name='[none:BMI:nk]' pivot='key' type='nominal' />
+            <column-instance column='[HeartDisease]' derivation='None' name='[none:HeartDisease:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Race]' derivation='None' name='[none:Race:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_68679921914769416]' derivation='User' name='[usr:Calculation_68679921914769416:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.059b56r0szzl2y10nrtr81fa88oy].[BMI]' ordering-type='Field' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.059b56r0szzl2y10nrtr81fa88oy].[none:HeartDisease:nk]'>
+            <groupfilter function='member' level='[none:HeartDisease:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.059b56r0szzl2y10nrtr81fa88oy].[none:HeartDisease:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.059b56r0szzl2y10nrtr81fa88oy].[none:Race:nk]' />
+              <lod column='[federated.059b56r0szzl2y10nrtr81fa88oy].[none:BMI:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.059b56r0szzl2y10nrtr81fa88oy].[usr:Calculation_68679921914769416:qk:2]</rows>
+        <cols>[federated.059b56r0szzl2y10nrtr81fa88oy].[none:AgeCategory:nk]</cols>
+      </table>
+      <simple-id uuid='{21353AB9-6820-4AF5-8964-CF933484B80B}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.059b56r0szzl2y10nrtr81fa88oy].[none:Race:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.059b56r0szzl2y10nrtr81fa88oy].[none:AgeCategory:nk]</field>
+            <field>[federated.059b56r0szzl2y10nrtr81fa88oy].[none:Asthma:nk]</field>
+            <field>[federated.059b56r0szzl2y10nrtr81fa88oy].[none:BMI:nk]</field>
+            <field>[federated.059b56r0szzl2y10nrtr81fa88oy].[none:HeartDisease:nk]</field>
+            <field>[federated.059b56r0szzl2y10nrtr81fa88oy].[none:Race:nk]</field>
+            <field>[federated.059b56r0szzl2y10nrtr81fa88oy].[none:Sex:nk]</field>
+            <field>[federated.059b56r0szzl2y10nrtr81fa88oy].[none:Smoking:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8A15D349-6E68-42C9-8FCB-945D3B151713}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAAVYUlEQVR4nO3daWwc533H8e/M7MVdLm/xliiRFCnqliwfknzXiuPYiJOmSAO0AVokbVP0
+      Td/0TVsULtqgaFAgRZM2RRokSINciC8YTnyftSVLsi4eokRSpHhIPMRruVzuNTNPXzBirIhL
+      0c6SO6v5fwDDIGcwemb5/Hau5/+MppRSCOFSeq4bIEQuSQCEq0kAxLqKR8Y5drqLlc+7FdNj
+      g7z51jvMxpI3LBm41EPayl57jKeeeuqp7G1OiJUdfelpXj7azt4778ZrzvPKSy8xPrNAVVU5
+      77/5MlMJD8VahG9+9+dsbdyEL1hEf8dxTnb2U1NVzDf/5euMp/zUFNq8/u4JajY2kJy5wsuv
+      vk0cDxVhL6+99BJxPYQ/PcPlkTH6Bi4zE01RXmBzfnCSyvLipfZ4cvhZCNdR9Iwn+dLDbZzt
+      HmL+3C8paD3EmaNvw1w/V81KJl95hviuJu769Be5984tYCW53JlgpOMDjlVsorKqkp1tLfzk
+      pz/m0D37eeZX7xDrP8bhRx/n7bfeY+hknFDznbz+/E+5545WfnVyjD//8hM898wLmDuridUc
+      vKFFcgok1k1q9jKnTp/lmZff48OTJ5leMNmzq43CgI+5yBwz05M0NDVTXlHFxY6zmOkUk6OX
+      6ZtYYGdLA2lTo6S0mIaNdUxPThJNe2ioKcXS/bQ1N+I1NOYWUrS0tlIS9JAybR5+7Ak21tbS
+      UhXg+eND3NFceUObJABi3UyOT/NXf/tP/MM//jN3binj0c8c4Yf/9S36Rme451NPYkwPcHk8
+      ysbtd3N3PXzj3/6dyXQIIzrEQESnfkOYe+8+wHe//7984XOPcfyDE3gCIR4+tJdvf+d7RBIm
+      n/vC53n2+/9JWdu9tDRuoaY0BGgcOLCHsspNBIwbu7y2Fs8BLMtCKYVSCk3Tsr15cZsY7Omg
+      /8oEsbSXz3zq/k/8bdx+8n2uzczhL9/MvXe03bRcWWnee+MV6nbfR2N18Q3L1iQAALZtA6Dr
+      cpARzpWV3qmUYnToEgMjY8iDZZFPshKA6GgvU3YRenSUy+Nz2dikEOsiKwHQPV5is1PoXg/j
+      k9PZ2KQQ6yIrAQht2MyOphpQGqXF4WxsUoh1kZ0rVCtB/6UBppMGTXXlWdmkEOtB7gIJV5Pe
+      KVxNAiBcTQIgXE0CIFxNAiBcTQIgXE0CIFxNAiBcTQIgXC07NcFKYZppLAU+r1eKYETeyEoA
+      zIUpjrVfpshrUbyxlc1VJdnYrBBrLjtHAE1H1zQMj4Gh69i2jW3bS2WRQjhVVgIQn5+lsLSS
+      DQVJpudjaBVhNE1b+k8Ip8pKAHyBENGpQUzDomxT+Q0dX0aDCieT4dDC1aR3CleTAAhXkwAI
+      V5MACFeTAAhXkwAIV5MACFeTAAhXkwAIV5MACFeTAAhXkwAIV5MACFeTAAhXy0o9QCI6zcX+
+      YeJzU4Trd7BjS1U2NivEmsvKESAQLmPPnt0EQ2E211VkY5NCrIusvSk+FZvB9BQT9BlYlrVU
+      EHP9/0I4UdamRenr6aOpbT8aYBiGlESKvJCdkkilSCQSBAoKln4lJZEiH0hNsHA16Z3C1SQA
+      wtUkAMLVJADC1SQAwtUkAMLVJADC1SQAwtUkAMLVJADC1SQAwtUkAMLVJADC1bJSD6CUTfup
+      kyhPgKbW7YQLvNnYrBBrLjs1wZMDzKQDVAQD+L3G0psh5S2Rwumy857gZIJQeTVNG0zaLwyy
+      f3uDvCZV5IWsBKCwupH08TMMxP0Ul226oQhGCmKEk2WtIsxMp0iZNgUBP5qmSUWYyAtSEilc
+      TXqncDUJgHA1CYBwNQmAcDUJgHA1CYBwNQmAcDUJgHA1CYBwNQmAcDUJgHA1CYBwNQmAcLWs
+      lUSeOnEUbyDM5q1tFAd92disEGtuhQAoZq6NM3TlKhgBGjY3UBIOLb+mFSOe9NK0rZGiAun8
+      In8sXw9gJfnlC88T10K0bG1EpWL0XuwlVNvCY/cfuGl1ZZuMj00wNz0GJZtoqildqge4/rI8
+      IZxo+SNAMkbCW86Tjz2MR1/swG0tW3nxzeMZVp9DC4QpL4oymrbkLZEib2SsCJseHeDFl9/C
+      VAo0Ha+/kCeefJLS0M2nOEoprg5dIkEBjZvq0DSpCBP5IWMAItPX8BWWUeAzUFaasWsz1FRX
+      rnrDEgCRDzJeBKfmp/jRj3/Gzr376D53mn0PPP6xAiBEPsj49VxWs4Wm6jBvvvYq6UAFO7Zu
+      Ws92CbEuMp4CdZ98m2jhFvY11xIZ6+foxSk++8ihVW9YToFEPsjYOyPXhknZOt/5wY+oKCqg
+      Z2h0PdslxLrIeA2QTiUZGbzM8NAQff2XicWT69kuIdZFxlOgiZE+znRdQimFpmlUNbSwd9uW
+      VW9YToFEPsjYO8s3VGKlLWrr6vBgU1kpd4DE7SdjADrfe4lY4SZ279rFvq0V/OyFN9azXUKs
+      i4zXANH5ec6df4PZ3mOQnCVC3Xq2S4h1kfEaIJWIE40tLP3sCwQJhwpWvWG5BhD5IOMRYGK4
+      lzePnQVlc/liB0VtD/PXX358Pdt225tPJembnGQ2EacoEGBreQVhfyDXzfpYlFJMxObpn54i
+      ZVlUF4ZpLCvHaxi5btqqrDA9uqL//Gneev80tU07eODwnQT9q3/3lxwBMlNK0TE2ygvdnURT
+      v7m9HPT6eGLbdvbX1ufFMHLTsvhVTzfHhwcxf/33BqgtKuZLu/dRVRjOYetWJ2PvPPvm03z9
+      2z+lIFxEbPoq7Rf617Ndt7WBmSl+3nHmhs4PsJBO8UxnOxcnJ3LUstVTSvFq30XeHxy4ofMD
+      XJ2L8MPTJ4ilnP/sKOMRwLYtTNNa+lk3DDwrHNasdJx3332fe+5/hAKvHAEyUUrxvQ8/oG9q
+      MuM6DSWlfO2uQ47+7OYSCb7x7hukf6vzf9RjLW082Ni8jq36+DJeAwx0nuDZV95b+rn1wAN8
+      9qG7ll9ZKQZ6ewgUFGDJO/FWlLZthmdnV1xnNDpH3DQJ+ZxbXjocmV2x88Pike5B8jQATbsP
+      8je7D65qI8noBAtGKcXBxUOeZVlLRwD7Fh+S25iWhaVW/kwspTBNE9PBR4C0ad5yHdOyMVex
+      Xi5lZVaIlAkqMUP/5UH00s1sa6iUksgMdMOgJlzEcCTzUWBDMEQoEMDj4M9uY2kpuqZhr/CK
+      uY0lJXg8WeliayYrn3C4rIo9e/bw8JFPs3WjDJlYia5p3Le5EY3l7/JowL2bGx3d+QFKC4Ls
+      rq7NuDzk9XFnvfNrSLL6KQdDYQxn/90cYVd1LUeaWzB+61anpmk82NjMHbX1OWrZ6umaxmfb
+      drK1fMNNy0JeH3+4ex/lweWn0XESeU1qjiilGI3OcW7sKpH44oOwXdW11BcV58UzgOss2+bC
+      tXF6Jq8tPggLh9lXW09RnjzQkwAIV5PeKVxNAiBcTQIgXE0CIFxNAiBcTQIgXE0CIFxNAiBc
+      zdkjlW5zSimmFhaIJhMU+v1UBEN59RT4OtO2GZ+PkrYsKoIhQj5f3uyHBCAHlFJMzM/z3Pl2
+      BmdnsJVC1zTqi4r5/I7d1ISL8qIDKaU4N3qFl3ouEEnEUYBX19lbW88TrdsJeFdfQpsrMhQi
+      ByZj8/z38aM3lUTCYl3wX9x1kOpwUQ5atnpKKT68Mswzne0obu5CzeUV/Mn+uxxfHJ+V3qnS
+      cTo72jnX3slCytkFELmmlOL1vp5lOz8s1gW/2nuRNfpeypqEafJyz4VlOz9A39Qk7WNX17lV
+      H192vp4NL1u3bWdLZZBLI5lrXcXi+XLP1LUV1+mfmSLh8Eqqkcgs87coeu+eGF+n1nxyWbkG
+      0HSDyaFeOi4McPd9D0lJ5ArSlkkinV5xnaRpkkyn8Dr4OiCaSNxynVgq6Y6SyHQyQXltIw+V
+      hukYuMKBnVukJDIDTdcpDQaZjMUyrlMcCBD0+/EYzr1HUVV062uUysKwO0oiURaXerrpHYmw
+      vWVjVjZ5u9I1jQN1K39G+2rq8erOvnisLgyzqaQ043JD09lflweVbdnYiDdQyI6du9i5YxtB
+      n7MTn2uapnG4oZHtldXLLt9avoEHG5sdfxvU0HX+YOceSgI3zxerofHo1lY2FWcOiFPIbdAc
+      sWybD68Mc+bqyOLcoP4C9tbUctfGBscXxH9UNJng3YF+eqYmSJkW1eEiDjdsobm8ItdNWxUJ
+      gHA16Z3C1SQAwtUkAMLVJADC1SQAwtUkAMLVJADC1SQAwtVk3EIO2cpmNBplNh6nOBCgJlyE
+      kWcPDpVSmPE4C729aKk0Rl0dweoqtDzZDwlADiilGIrM8FxXB6PRuaXfbwgV8vs7drOltMzx
+      Y4EAlGUx+fLLxJ5+Fj0eX/wdoO/fR+VXv4K/rCy3DVwFGQqRA6PROb574igLy9QFBDwevnrn
+      QTYWl+SgZaunlOLaiy8S/8nP0JbrQo1bqP37v8MTDK5/4z6G7JREWkm6Os5x+vQZIgupbGzy
+      tqWU4o2+nmU7PyyWGr6WByWR6WiUheeeX77zA6p/gMj/vbfsMifJztezrWjctpO2zRvoH3Z+
+      GVwumbZN3/TKZaODs9PEzZWrxnJtoacHfSGecbkGxM+cXb8GfULZKYn0+FkYG+Li4CT7D+yV
+      ksgVpC2T1Efev7z8OhapdBqf5tzTR7VC579OSybcURJpJma5MBzh4N370X998SYlkcvTdJ2K
+      UIjx+WjGdUoKCgj5Ayu+mDzXPPV1KMjwqr9Fem2tO0oildIIeGw62tuZmM78hxWLJZF33eLt
+      iQfqNjm+KCa0aRNaa2vG5crrIfzQg+vXoE9I7gLlgGXbPNvVzqkrwzfNqrOnupYv7trr6G//
+      6+JjY0z86zdgdOyGI4HyeAh++Y/Z8Oincta21ZIA5Ihl23RNjHH26hVmE4sPwnZX17K7ujav
+      Hoal5uaIvPY68fZ29FQKvb6e8COPEG5tyXXTVkUCIFxNeqdwNQmAcDUJgHA1CYBwNQmAcDUJ
+      gHA1CYBwNQmAcDVnj1RaQdqySJgmugYFXt/SILx8opQiaZmkLQuPbhDwePKiEuy32baFFZ0H
+      pdAKCjDkLZFrx7JtPhge5OjQADMLcQxdo66omCPNrTSWlefNBx9NJni19yLnJ8ZZSKco8HrZ
+      VlHJoy3bKF5mynEnUkoRPd9N5Be/IN3fj2Za6OVlFDz8MOWPfwbD58t1E28pr4ZC2ErxQncn
+      x4Yu37TMqxt8ac8+dlbVZO3fWyvzyST/c/IYY8sMid4QCvFndx7MixDMnjrF7H98Cz15YxWg
+      AjyHD1Hzl19Dd8dwaEUiFmF8KpKNzWXUPz3JB8t0foC0bfFCdyfxW7x/K9eUUrxxqWfZzg9w
+      LRbLi7dEWokEkR/88KbOD4s1Aub7R5k7dWr9G/YxZenrOc3I5WFGxlZ+++Hvqn1sNMNLORdF
+      EgkGZ6fXtA2/K0vZdI2PrbjOhWsTJC1nV1JFe3vRJjOXdmrA/LEP1q9Bn1B2SiI1H81bt3Cu
+      f/EPu1YlkZH4rcvwZhYWHF2Gl7LMjO8Ivm4hnSKRSuFZsd4qt9T0zC3X0WZnHf23gDW6CDYM
+      Y01KIktWMcVGWSjk7DI8XafIH2A2kTnMIZ+PgM/v6P3Qym89548qLXX0PkC2rgFSMc51XSQy
+      Nc6VibU7BdlbXbvi7c6ygiANJc6ejMnQNHZXr3yhvr2yGr/DK8LCLS2oqqqMy5WmEb738Dq2
+      6JPJSgA0X4g9+/Zz/+FD1FWuXQdsKC3jvs2Ny54Y+A0PT27fScDh3ziapvFg41bqM0x8VR0u
+      4khzi+Nv5xo+HyVf+VPsgsBNyxTgfegBwnv3rn/DPqa8ug0Ki88Bzlwd4b3BAa7F5vHoOg0l
+      pTzS3MrG4hLHd5zrYqkUb/X30j52lWgySaHPz46qah5paqHQ789181ZFKUWs7xKzzzxDqvsC
+      mmmiV1USPHKE8iOPOP4WKORhAK6zbBvTttG0xWcA+dLxP0ophWnb2EqhaxoeXc/P/bBt7FRq
+      8Umw14tm5M/fI28DIEQ2SO8UriYBEK4mARCuJgEQriYBEK4mARCulqUAKFLJOLGFxIqjNYVw
+      mqw8qrNT85w42UXIDzXNu6guDWVjs0KsuawcAaLjg2xo3s3utkZGxlZ+/Y8QTpKVABgez1IN
+      QD5N7S1EVoZCKDvFyQ9OYmsG2/feQVGBV4ZCiLwgY4GEq63JeFXbtrFtG6WU44u7hbutSQA0
+      TVv65s+XYbGZWJaF4fDqrNW4Hfbj+pdpNvvUmp0CrUVjc0Eplff7ALfHfuRVAITIB46vWUvM
+      jnH0XB/lpaVs27GND999h8KycuoamqkoCQGK9995g8KSDdRsauLaYDdJS2EEK9jT1pjr5i+5
+      NnKJy+NzlJZXUlNscLZ7EMuGw4fvxtDASsxx8mw3wcIwrW3b8WlJXnr2aQ489kdUOuS5olI2
+      FzrOkrR16jY3ExnqZtryUVpawdbNdQBMjPQzNB6huLySEm+Sy6MzJBJp7jl0N17dCUcgxdCl
+      HmbmE1wauur8sUCx6Bya4aWwuBSvlWDBtDF8BRQVXp86ME1iwcTwBigq9BFLauzdf4D47ATZ
+      m5Hod6W4NDhC0O8hEAhwdWiYHXfcRVuVl+HI4rw5/b19FIQL8foCeDRFT1cXDU2NjhpaYi7M
+      MhGJo+sGAb+PSCyO19AoLSleWqd/cIQCv0EgEGDi2jTbdu2lubqAkamFHLb8ozQ2NbXSurma
+      LU3bnH8EKN/YwkP1iqHuDxmKlnHkyCMkY9OcPddJSVCjpHoLv/fYoySiU7R3XWJz/QY6O7qY
+      TzppQiaFZWu0tG3nww+OU1LoQ9NA0yERneXcyAQqkaSmtQ2mBzjfdZ7x6SRFzKJPz1AVKs31
+      DgCLs0D7gsVsb2vmxOkODh28H9s2OXbsBPaWOmaTOqYNLW07aD9xnOadOxi40ElyfpoNJU74
+      9r9O0dM3SMuuO5wfgOnxEa5cmyU2G6e5PkXH2R4UKUrK62nZXI2VmKe9vQOsFEWldVh2Ah2L
+      mrqNDjq86dRXldHZeR7L8FNXV0XnmVOYqTQH763Au7GCRGScU+e78JGmvnk7dXUWV3rP4vc7
+      Z4ZlX6gUv9VHd/dFwsUl9F88T9y00f0hKmsbqAR86QhdnV2kND+6sjA8HmxvEXVlzpnsNxWb
+      Ju0tJugznH8RrJTCMk003cDQNSzbwlbg+cjMA5ZlLv1OKRvLUng8zpqZ4Pp+6IYHXVu8LYmm
+      Yxi/iallmSi0xZn1WJxtAU3HQbuBsm1My1qc8U0pTGuxk1+fsOyj+6lpYJomhuFBd8T5/yKl
+      bJTS0HXN+QEQYi055yxBiByQAAhX+395bqHNvyfvswAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
